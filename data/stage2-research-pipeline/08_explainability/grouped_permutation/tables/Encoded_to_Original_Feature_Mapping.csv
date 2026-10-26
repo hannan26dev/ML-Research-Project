@@ -1,0 +1,132 @@
+encoded_feature,original_feature,column_index
+numeric__Age,Age,0
+numeric__Purchase Amount (USD),Purchase Amount (USD),1
+numeric__Review Rating,Review Rating,2
+numeric__Previous Purchases,Previous Purchases,3
+categorical__Gender_Female,Gender,4
+categorical__Gender_Male,Gender,5
+categorical__Item Purchased_Backpack,Item Purchased,6
+categorical__Item Purchased_Belt,Item Purchased,7
+categorical__Item Purchased_Blouse,Item Purchased,8
+categorical__Item Purchased_Boots,Item Purchased,9
+categorical__Item Purchased_Coat,Item Purchased,10
+categorical__Item Purchased_Dress,Item Purchased,11
+categorical__Item Purchased_Gloves,Item Purchased,12
+categorical__Item Purchased_Handbag,Item Purchased,13
+categorical__Item Purchased_Hat,Item Purchased,14
+categorical__Item Purchased_Hoodie,Item Purchased,15
+categorical__Item Purchased_Jacket,Item Purchased,16
+categorical__Item Purchased_Jeans,Item Purchased,17
+categorical__Item Purchased_Jewelry,Item Purchased,18
+categorical__Item Purchased_Pants,Item Purchased,19
+categorical__Item Purchased_Sandals,Item Purchased,20
+categorical__Item Purchased_Scarf,Item Purchased,21
+categorical__Item Purchased_Shirt,Item Purchased,22
+categorical__Item Purchased_Shoes,Item Purchased,23
+categorical__Item Purchased_Shorts,Item Purchased,24
+categorical__Item Purchased_Skirt,Item Purchased,25
+categorical__Item Purchased_Sneakers,Item Purchased,26
+categorical__Item Purchased_Socks,Item Purchased,27
+categorical__Item Purchased_Sunglasses,Item Purchased,28
+categorical__Item Purchased_Sweater,Item Purchased,29
+categorical__Item Purchased_T-shirt,Item Purchased,30
+categorical__Category_Accessories,Category,31
+categorical__Category_Clothing,Category,32
+categorical__Category_Footwear,Category,33
+categorical__Category_Outerwear,Category,34
+categorical__Location_Alabama,Location,35
+categorical__Location_Alaska,Location,36
+categorical__Location_Arizona,Location,37
+categorical__Location_Arkansas,Location,38
+categorical__Location_California,Location,39
+categorical__Location_Colorado,Location,40
+categorical__Location_Connecticut,Location,41
+categorical__Location_Delaware,Location,42
+categorical__Location_Florida,Location,43
+categorical__Location_Georgia,Location,44
+categorical__Location_Hawaii,Location,45
+categorical__Location_Idaho,Location,46
+categorical__Location_Illinois,Location,47
+categorical__Location_Indiana,Location,48
+categorical__Location_Iowa,Location,49
+categorical__Location_Kansas,Location,50
+categorical__Location_Kentucky,Location,51
+categorical__Location_Louisiana,Location,52
+categorical__Location_Maine,Location,53
+categorical__Location_Maryland,Location,54
+categorical__Location_Massachusetts,Location,55
+categorical__Location_Michigan,Location,56
+categorical__Location_Minnesota,Location,57
+categorical__Location_Mississippi,Location,58
+categorical__Location_Missouri,Location,59
+categorical__Location_Montana,Location,60
+categorical__Location_Nebraska,Location,61
+categorical__Location_Nevada,Location,62
+categorical__Location_New Hampshire,Location,63
+categorical__Location_New Jersey,Location,64
+categorical__Location_New Mexico,Location,65
+categorical__Location_New York,Location,66
+categorical__Location_North Carolina,Location,67
+categorical__Location_North Dakota,Location,68
+categorical__Location_Ohio,Location,69
+categorical__Location_Oklahoma,Location,70
+categorical__Location_Oregon,Location,71
+categorical__Location_Pennsylvania,Location,72
+categorical__Location_Rhode Island,Location,73
+categorical__Location_South Carolina,Location,74
+categorical__Location_South Dakota,Location,75
+categorical__Location_Tennessee,Location,76
+categorical__Location_Texas,Location,77
+categorical__Location_Utah,Location,78
+categorical__Location_Vermont,Location,79
+categorical__Location_Virginia,Location,80
+categorical__Location_Washington,Location,81
+categorical__Location_West Virginia,Location,82
+categorical__Location_Wisconsin,Location,83
+categorical__Location_Wyoming,Location,84
+categorical__Size_L,Size,85
+categorical__Size_M,Size,86
+categorical__Size_S,Size,87
+categorical__Size_XL,Size,88
+categorical__Color_Beige,Color,89
+categorical__Color_Black,Color,90
+categorical__Color_Blue,Color,91
+categorical__Color_Brown,Color,92
+categorical__Color_Charcoal,Color,93
+categorical__Color_Cyan,Color,94
+categorical__Color_Gold,Color,95
+categorical__Color_Gray,Color,96
+categorical__Color_Green,Color,97
+categorical__Color_Indigo,Color,98
+categorical__Color_Lavender,Color,99
+categorical__Color_Magenta,Color,100
+categorical__Color_Maroon,Color,101
+categorical__Color_Olive,Color,102
+categorical__Color_Orange,Color,103
+categorical__Color_Peach,Color,104
+categorical__Color_Pink,Color,105
+categorical__Color_Purple,Color,106
+categorical__Color_Red,Color,107
+categorical__Color_Silver,Color,108
+categorical__Color_Teal,Color,109
+categorical__Color_Turquoise,Color,110
+categorical__Color_Violet,Color,111
+categorical__Color_White,Color,112
+categorical__Color_Yellow,Color,113
+categorical__Season_Fall,Season,114
+categorical__Season_Spring,Season,115
+categorical__Season_Summer,Season,116
+categorical__Season_Winter,Season,117
+categorical__Payment Method_Bank Transfer,Payment Method,118
+categorical__Payment Method_Cash,Payment Method,119
+categorical__Payment Method_Credit Card,Payment Method,120
+categorical__Payment Method_Debit Card,Payment Method,121
+categorical__Payment Method_PayPal,Payment Method,122
+categorical__Payment Method_Venmo,Payment Method,123
+categorical__Frequency of Purchases_Annually,Frequency of Purchases,124
+categorical__Frequency of Purchases_Bi-Weekly,Frequency of Purchases,125
+categorical__Frequency of Purchases_Every 3 Months,Frequency of Purchases,126
+categorical__Frequency of Purchases_Fortnightly,Frequency of Purchases,127
+categorical__Frequency of Purchases_Monthly,Frequency of Purchases,128
+categorical__Frequency of Purchases_Quarterly,Frequency of Purchases,129
+categorical__Frequency of Purchases_Weekly,Frequency of Purchases,130

@@ -1,0 +1,23 @@
+{
+    "timestamp": "2026-09-13T23:06:58",
+    "stage": "Reduced-label supervised baselines",
+    "original_training_rows": 3120,
+    "development_rows": 2496,
+    "internal_validation_rows": 624,
+    "locked_test_rows": 780,
+    "label_conditions": [
+        10,
+        20,
+        50,
+        100
+    ],
+    "repetitions": 5,
+    "models": [
+        "Balanced Logistic Regression",
+        "Random Forest"
+    ],
+    "pseudo_labels_used": false,
+    "cluster_guidance_used": false,
+    "locked_test_evaluated": false,
+    "next_stage": "Conventional pseudo-labeling under reduced-label conditions"
+}

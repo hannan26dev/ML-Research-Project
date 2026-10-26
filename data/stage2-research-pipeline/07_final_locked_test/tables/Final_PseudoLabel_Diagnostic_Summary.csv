@@ -1,0 +1,7 @@
+label_percent,method,mean_pseudo_rows,mean_pseudo_positive,mean_pseudo_negative,mean_pseudo_accuracy
+10,Conventional PL,899.3,4.2,895.1,0.9970071905112828
+10,Negative-Only PL,895.1,0.0,895.1,0.9998332080903539
+20,Conventional PL,798.55,2.55,796.0,0.9982475726184719
+20,Negative-Only PL,796.0,0.0,796.0,0.9999384993849938
+50,Conventional PL,497.9,0.1,497.8,0.9997963875885496
+50,Negative-Only PL,497.8,0.0,497.8,1.0

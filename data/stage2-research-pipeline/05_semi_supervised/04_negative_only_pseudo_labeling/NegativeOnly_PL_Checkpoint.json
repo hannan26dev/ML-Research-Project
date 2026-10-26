@@ -1,0 +1,12 @@
+{
+    "timestamp": "2026-09-13T23:27:55",
+    "stage": "Negative-only pseudo-label ablation",
+    "base_learner": "Random Forest",
+    "tau": 0.7,
+    "selection_rule": "Predicted class = 0 AND confidence >= tau",
+    "motivation": "Cell 16 showed high-confidence negative pseudo-labels were nearly perfectly reliable, while positive pseudo-labels were rare and substantially less reliable.",
+    "hidden_labels_used_for_selection": false,
+    "hidden_labels_used_for_diagnostics_only": true,
+    "cluster_guidance_used": false,
+    "locked_final_test_used": false
+}

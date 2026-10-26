@@ -1,0 +1,44 @@
+{
+    "timestamp": "2026-09-14T00:27:49",
+    "stage": "Final research results consolidation",
+    "cell": 30,
+    "dataset_rows": 3900,
+    "target": "Subscription Status",
+    "primary_supervised_model": "Random Forest",
+    "semi_supervised_methods": [
+        "Conventional pseudo-labeling",
+        "Negative-only pseudo-labeling"
+    ],
+    "label_scarcity_levels": [
+        10,
+        20,
+        50
+    ],
+    "full_supervised_reference": 100,
+    "repetitions": 20,
+    "primary_metric": "F1",
+    "final_test_rows": 780,
+    "full_supervised_f1": 0.5726972580662889,
+    "supervised_10pct_f1": 0.5025326229255024,
+    "conventional_10pct_f1": 0.571309484865632,
+    "negative_only_10pct_f1": 0.571080069389002,
+    "supervised_20pct_f1": 0.5408718068652765,
+    "conventional_20pct_f1": 0.5712240085061489,
+    "negative_only_20pct_f1": 0.5706547732379591,
+    "gender_cramers_v": 0.4165777557121568,
+    "gender_full_model_f1": 0.5726972580662889,
+    "gender_removed_f1": 0.2812816499016547,
+    "gender_relative_f1_loss_percent": 50.8847570090694,
+    "gender_removed_roc_auc": 0.4906387692717747,
+    "xai_consensus_top3": [
+        "Gender",
+        "Item Purchased",
+        "Location"
+    ],
+    "model_training_in_cell_30": false,
+    "feature_selection_in_cell_30": false,
+    "hyperparameter_tuning_in_cell_30": false,
+    "methodology_changed": false,
+    "primary_results_finalized": true,
+    "next_stage": "Paper writing: title, abstract, methodology, results, discussion, limitations, conclusion."
+}

@@ -1,0 +1,51 @@
+{
+    "timestamp": "2026-09-13T23:38:30",
+    "stage": "Expanded frozen 20-repetition experiment",
+    "methodology_status": "FROZEN",
+    "methods": [
+        "Supervised RF",
+        "Conventional PL",
+        "Negative-Only PL"
+    ],
+    "scarcity_levels": [
+        10,
+        20,
+        50
+    ],
+    "repetitions": 20,
+    "seeds": [
+        42,
+        52,
+        62,
+        72,
+        82,
+        92,
+        102,
+        112,
+        122,
+        132,
+        142,
+        152,
+        162,
+        172,
+        182,
+        192,
+        202,
+        212,
+        222,
+        232
+    ],
+    "pseudo_label_tau": 0.7,
+    "rf_parameters": {
+        "max_depth": 10,
+        "max_features": "sqrt",
+        "min_samples_leaf": 5,
+        "n_estimators": 400
+    },
+    "hidden_labels_used_for_selection": false,
+    "hidden_labels_used_for_diagnostics_only": true,
+    "cluster_guidance_used": false,
+    "internal_validation_used": true,
+    "locked_final_test_used": false,
+    "next_stage": "Paired statistical analysis across 20 repetitions before final test."
+}

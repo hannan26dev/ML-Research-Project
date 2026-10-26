@@ -1,0 +1,22 @@
+{
+    "timestamp": "2026-09-13T22:48:27",
+    "model": "Logistic Regression",
+    "role": "Fully supervised baseline",
+    "training_rows": 3120,
+    "training_positive_count": 842,
+    "training_negative_count": 2278,
+    "encoded_predictors": 131,
+    "class_weight": "balanced",
+    "tuning_metric": "F1",
+    "cv_folds": 5,
+    "best_parameters": {
+        "C": 0.01,
+        "penalty": "l1"
+    },
+    "best_grid_cv_f1": 0.5676910002715717,
+    "test_set_evaluated": false,
+    "cluster_information_used": false,
+    "pseudo_labels_used": false,
+    "discount_applied_used": false,
+    "next_step": "Train and compare tree-based fully supervised baselines."
+}

@@ -1,0 +1,11 @@
+feature,unique_values,normalized_mutual_information,weighted_target_purity,max_single_value_target_purity
+Discount Applied,2,0.472824,0.84,1.0
+Gender,2,0.20896,0.73,1.0
+Location,50,0.002503,0.73,0.873016
+Item Purchased,25,0.001732,0.73,0.836257
+Color,25,0.001309,0.73,0.785235
+Payment Method,6,0.000412,0.73,0.743464
+Frequency of Purchases,7,0.000395,0.73,0.751332
+Category,4,0.00019,0.73,0.736903
+Size,4,0.000129,0.73,0.738928
+Season,4,8.1e-05,0.73,0.738414

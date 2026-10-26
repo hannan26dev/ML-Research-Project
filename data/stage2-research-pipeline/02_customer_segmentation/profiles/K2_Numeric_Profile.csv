@@ -1,0 +1,5 @@
+,Age,Age,Age,Purchase Amount (USD),Purchase Amount (USD),Purchase Amount (USD),Review Rating,Review Rating,Review Rating,Previous Purchases,Previous Purchases,Previous Purchases
+,mean,median,std,mean,median,std,mean,median,std,mean,median,std
+Cluster,,,,,,,,,,,,
+0,44.2646,45.0,15.1472,40.1259,39.0,12.3961,3.6547,3.6,0.7015,26.0392,26.0,14.1857
+1,43.9097,44.0,15.2469,80.5234,81.0,12.1971,3.8422,3.9,0.7166,24.4747,24.0,14.6611

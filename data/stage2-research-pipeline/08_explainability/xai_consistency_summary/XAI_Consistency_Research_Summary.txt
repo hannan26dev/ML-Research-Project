@@ -1,0 +1,119 @@
+
+XAI CONSISTENCY AND ROBUSTNESS SYNTHESIS
+========================================
+
+Cross-method explainability agreement
+-------------------------------------
+
+Grouped permutation importance and SHAP produced broadly
+consistent feature rankings.
+
+Spearman rank correlation:
+rho = 0.796703
+
+p-value:
+0.00111365265227
+
+Agreement description:
+strong
+
+Consensus top predictors
+------------------------
+
+1. Gender
+2. Item Purchased
+3. Location
+
+Gender-specific evidence
+------------------------
+
+Grouped permutation importance:
+0.183648
+
+Grouped permutation rank:
+1
+
+SHAP mean absolute contribution:
+0.195804
+
+SHAP rank:
+1
+
+Gender-Subscription chi-square:
+676.794404
+
+Gender-Subscription p-value:
+3.3268630006e-149
+
+Cramer's V:
+0.416578
+
+Full model mean F1:
+0.572697
+
+Gender-removed mean F1:
+0.281282
+
+Absolute F1 loss:
+0.291416
+
+Relative F1 loss:
+50.885%
+
+Paired Wilcoxon p-value:
+1.90734863281e-06
+
+Full model ROC-AUC:
+0.718966
+
+Gender-removed ROC-AUC:
+0.490639
+
+Full model balanced accuracy:
+0.723110
+
+Gender-removed balanced accuracy:
+0.495738
+
+
+Scientific interpretation
+-------------------------
+
+Multiple independent analyses converge on the conclusion that
+Gender is the dominant predictive feature for Subscription
+Status in this dataset.
+
+Grouped permutation importance and SHAP both rank Gender first.
+The raw-data structural analysis shows a pronounced association
+between Gender and Subscription Status, while the post-hoc
+Gender-ablation experiment demonstrates a large reduction in
+predictive performance when Gender is unavailable.
+
+These results indicate predictive dependence and dataset-level
+association. They do NOT establish causation.
+
+The analyzed Customer Shopping Trends dataset is synthetic.
+Therefore, the observed Gender-Subscription relationship should
+be interpreted as a structural property of this dataset rather
+than evidence of a generalizable real-world behavioral effect.
+
+Methodological integrity
+------------------------
+
+Primary model modified:
+NO
+
+Hyperparameters changed:
+NO
+
+Feature selection performed:
+NO
+
+Gender removed from primary experiment:
+NO
+
+Locked-test results replaced:
+NO
+
+Causal claim:
+NO

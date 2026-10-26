@@ -1,0 +1,4 @@
+label_percent,mean_selected_negative_rows,mean_selection_coverage,mean_confidence,mean_pseudo_accuracy,mean_incorrect_negative_labels
+10,708.0,0.315086782376502,0.8332706118274686,1.0,0.0
+20,629.8,0.3153730595893841,0.8723436527486138,1.0,0.0
+50,391.6,0.3137820512820513,0.8902119650412571,1.0,0.0

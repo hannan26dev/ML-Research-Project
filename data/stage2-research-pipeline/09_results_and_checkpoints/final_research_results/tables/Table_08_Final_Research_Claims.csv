@@ -1,0 +1,8 @@
+claim_id,research_claim,support,status
+C1,Pseudo-labeling improves subscription prediction under severe label scarcity.,"At 10% labels, F1 increased from 0.503 to 0.571 (Conventional PL).",SUPPORTED
+C2,Negative-only pseudo-labeling captures nearly all of the benefit of conventional pseudo-labeling.,"At 10% labels: Conventional=0.571, Negative-only=0.571.",SUPPORTED
+C3,The benefit of semi-supervised learning decreases as labeled data availability increases.,"Approximate F1 gain over supervised RF: 10%=0.069, 20%=0.030, 50%=0.010.",SUPPORTED
+C4,Gender is the dominant predictor in the frozen Random Forest.,Gender ranked first in grouped permutation importance and SHAP.,SUPPORTED
+C5,The predictive dependence on Gender reflects a strong structural characteristic of the dataset.,Cramer's V=0.417; F1 decreased by 0.291 when Gender was removed.,SUPPORTED
+C6,Gender has a causal effect on subscription.,Observational/synthetic data and post-hoc analysis do not establish causality.,NOT SUPPORTED
+C7,Cluster-guided pseudo-labeling is the primary source of the semi-supervised improvement.,K-Prototypes produced weak separation and cluster guidance was not retained as the primary mechanism.,NOT SUPPORTED

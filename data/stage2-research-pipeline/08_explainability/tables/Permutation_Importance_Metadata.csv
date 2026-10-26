@@ -1,0 +1,14 @@
+item,value
+Model,Frozen 100%-label Random Forest
+Seed,42
+Training rows,3120
+Test rows,780
+Encoded predictors,131
+Test input originally sparse,True
+Test matrix densified for XAI,True
+Dense test memory MB,0.78
+Permutation repeats,20
+Permutation scoring,F1
+Model selection performed,NO
+Feature selection performed,NO
+Methodology changed,NO

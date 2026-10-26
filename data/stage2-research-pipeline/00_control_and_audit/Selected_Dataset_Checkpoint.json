@@ -1,0 +1,41 @@
+{
+    "timestamp": "2026-09-13T22:13:19",
+    "required_target": "Subscription Status",
+    "selected_dataset": "D:\\data\\dataset.csv",
+    "shape": {
+        "rows": 3900,
+        "columns": 16
+    },
+    "columns": [
+        "Customer ID",
+        "Age",
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Purchase Amount (USD)",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Review Rating",
+        "Subscription Status",
+        "Discount Applied",
+        "Previous Purchases",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "target_values": [
+        {
+            "class": "No",
+            "count": 2847,
+            "percent": 73.0
+        },
+        {
+            "class": "Yes",
+            "count": 1053,
+            "percent": 27.0
+        }
+    ],
+    "customer_id_present": true,
+    "note": "Dataset selected only after verifying that the required research target is present. No existing source file was modified."
+}

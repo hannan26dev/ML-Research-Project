@@ -1,0 +1,27 @@
+{
+    "timestamp": "2026-09-13T23:30:34",
+    "stage": "Paired statistical analysis",
+    "repetitions": 5,
+    "scarcity_levels": [
+        10,
+        20,
+        50
+    ],
+    "methods_compared": [
+        "Supervised RF",
+        "Conventional pseudo-labeling",
+        "Negative-only pseudo-labeling"
+    ],
+    "primary_metric": "F1",
+    "supporting_metrics": [
+        "ROC-AUC",
+        "PR-AUC"
+    ],
+    "statistical_methods": [
+        "paired differences",
+        "bootstrap mean-difference 95% CI",
+        "exact paired sign-flip permutation test"
+    ],
+    "locked_final_test_used": false,
+    "note": "Only five repetitions are available, so inferential results should be interpreted cautiously alongside effect sizes and paired consistency."
+}

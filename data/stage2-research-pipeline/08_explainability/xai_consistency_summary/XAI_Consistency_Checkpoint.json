@@ -1,0 +1,33 @@
+{
+    "timestamp": "2026-09-14T00:25:01",
+    "stage": "XAI consistency and robustness synthesis",
+    "cell": 29,
+    "analysis_type": "Post-hoc evidence synthesis",
+    "xai_methods": [
+        "Grouped permutation importance",
+        "SHAP"
+    ],
+    "structural_analysis": "Gender × Subscription Status association",
+    "robustness_analysis": "Gender ablation sensitivity",
+    "spearman_rank_correlation": 0.7967032967032966,
+    "spearman_p_value": 0.0011136526522685867,
+    "xai_agreement_description": "strong",
+    "consensus_top_features": [
+        "Gender",
+        "Item Purchased",
+        "Location"
+    ],
+    "gender_grouped_permutation_importance": 0.18364843576518136,
+    "gender_shap_mean_absolute": 0.19580407213527384,
+    "gender_cramers_v": 0.4165777557121568,
+    "gender_ablation_full_f1": 0.5726972580662889,
+    "gender_ablation_no_gender_f1": 0.2812816499016547,
+    "gender_ablation_relative_f1_loss_percent": 50.88475700906939,
+    "gender_ablation_no_gender_roc_auc": 0.4906387692717747,
+    "primary_methodology_changed": false,
+    "feature_selection_performed": false,
+    "hyperparameter_tuning_performed": false,
+    "locked_test_replaced": false,
+    "causal_interpretation": false,
+    "next_stage": "Final results synthesis and paper-ready tables/figures."
+}

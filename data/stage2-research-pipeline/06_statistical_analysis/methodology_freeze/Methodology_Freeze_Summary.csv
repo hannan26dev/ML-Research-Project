@@ -1,0 +1,10 @@
+item,frozen_value
+Primary learner,Random Forest
+Pseudo-label threshold,0.7
+Scarcity levels,"10%, 20%, 50%"
+Original repetitions,5
+Additional repetitions,15
+Total repetitions,20
+Primary metric,F1
+Cluster guidance,Not primary
+Final test status,LOCKED

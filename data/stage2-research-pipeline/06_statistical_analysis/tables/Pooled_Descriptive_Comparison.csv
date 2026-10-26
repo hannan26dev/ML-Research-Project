@@ -1,0 +1,10 @@
+comparison,metric,mean_difference,median_difference,positive_cases,total_cases
+Conventional_vs_Supervised,F1,0.03189682581342176,0.033861369541530406,14,15
+Conventional_vs_Supervised,ROC_AUC,-0.002327868281815652,-0.0016838972431078014,7,15
+Conventional_vs_Supervised,PR_AUC,-0.003942456219655843,0.0007050419624550219,8,15
+NegativeOnly_vs_Supervised,F1,0.03157269817751908,0.033861369541530406,14,15
+NegativeOnly_vs_Supervised,ROC_AUC,-0.000963345864661654,0.0011748120300753007,9,15
+NegativeOnly_vs_Supervised,PR_AUC,-0.002468854634470889,0.0007050419624550219,8,15
+NegativeOnly_vs_Conventional,F1,-0.00032412763590268235,0.0,2,15
+NegativeOnly_vs_Conventional,ROC_AUC,0.001364522417153998,0.0,6,15
+NegativeOnly_vs_Conventional,PR_AUC,0.0014736015851849545,0.0,6,15

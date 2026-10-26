@@ -1,0 +1,34 @@
+
+FINAL RESEARCH CONTRIBUTION
+===========================
+
+The study provides a reproducible semi-supervised learning
+framework for customer subscription prediction under controlled
+label-scarcity conditions.
+
+The experimental results demonstrate that pseudo-labeling can
+substantially improve F1-score when only a small portion of
+training labels is available.
+
+A key empirical finding is that negative-only pseudo-labeling
+achieves performance very close to conventional pseudo-labeling,
+revealing asymmetric pseudo-label reliability within the
+subscription prediction task.
+
+The explainability contribution is based on two independent
+methods—grouped permutation importance and SHAP—which produced
+a strong rank correlation and consistently identified Gender
+as the dominant predictor.
+
+The study further extends standard predictive evaluation by
+performing a structural Gender-Subscription analysis and a
+20-seed Gender-ablation sensitivity experiment. Removing Gender
+reduced mean F1 by approximately 0.291
+(50.9% relative), while ROC-AUC fell
+to approximately 0.491.
+
+These results demonstrate the importance of combining
+semi-supervised learning with explainability and robustness
+analysis, particularly when predictive performance may be
+strongly influenced by structural characteristics of a
+synthetic dataset.

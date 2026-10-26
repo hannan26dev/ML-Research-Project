@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-09-14T00:10:17",
+    "stage": "SHAP global and local explainability",
+    "status": "COMPLETED",
+    "model": "Frozen 100%-label Random Forest",
+    "explainer": "SHAP TreeExplainer",
+    "explained_class": "Subscriber / positive class",
+    "test_customers_explained": 780,
+    "encoded_predictors": 131,
+    "original_predictors": 13,
+    "expected_value_positive": 0.5005073003126912,
+    "global_encoded_importance": "Mean absolute SHAP value",
+    "global_original_importance": "Per-customer SHAP contributions summed across encoded columns belonging to each original feature, followed by mean absolute contribution.",
+    "local_cases": {
+        "HighConfidence_Subscriber": 15,
+        "HighConfidence_NonSubscriber": 734,
+        "NearBoundary_Correct": 284
+    },
+    "model_retrained": false,
+    "model_selection_performed": false,
+    "feature_selection_performed": false,
+    "hyperparameters_changed": false,
+    "methodology_changed": false,
+    "causal_interpretation_allowed": false,
+    "next_stage": "Integrate final predictive results, statistical evidence, permutation importance, SHAP, limitations, and research contribution."
+}

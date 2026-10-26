@@ -1,0 +1,4 @@
+case,test_position,true_label,predicted_label,subscriber_probability,top_explanatory_feature,top_feature_shap
+HighConfidence_Subscriber,15,1,1,0.6389788176498279,Gender,0.10808304418187296
+HighConfidence_NonSubscriber,734,0,0,0.06904402198947883,Gender,-0.36524299516988845
+NearBoundary_Correct,284,0,0,0.4985613349829745,Gender,0.10008615758015288

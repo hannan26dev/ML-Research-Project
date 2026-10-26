@@ -1,0 +1,19 @@
+cluster,feature,mode,mode_count,mode_share,cluster_size
+0,Gender,Male,1097,0.6943,1580
+0,Item Purchased,Sweater,84,0.0532,1580
+0,Category,Clothing,702,0.4443,1580
+0,Location,Minnesota,51,0.0323,1580
+0,Size,M,720,0.4557,1580
+0,Color,Silver,91,0.0576,1580
+0,Season,Spring,429,0.2715,1580
+0,Payment Method,PayPal,314,0.1987,1580
+0,Frequency of Purchases,Annually,246,0.1557,1580
+1,Gender,Male,1028,0.6675,1540
+1,Item Purchased,Shirt,85,0.0552,1540
+1,Category,Clothing,690,0.4481,1540
+1,Location,New York,45,0.0292,1540
+1,Size,M,700,0.4545,1540
+1,Color,Teal,82,0.0532,1540
+1,Season,Winter,432,0.2805,1540
+1,Payment Method,Credit Card,291,0.189,1540
+1,Frequency of Purchases,Quarterly,252,0.1636,1540

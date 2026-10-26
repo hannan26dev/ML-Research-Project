@@ -1,0 +1,14 @@
+original_feature,encoded_columns
+Age,1
+Gender,2
+Item Purchased,25
+Category,4
+Purchase Amount (USD),1
+Location,50
+Size,4
+Color,25
+Season,4
+Review Rating,1
+Previous Purchases,1
+Payment Method,6
+Frequency of Purchases,7

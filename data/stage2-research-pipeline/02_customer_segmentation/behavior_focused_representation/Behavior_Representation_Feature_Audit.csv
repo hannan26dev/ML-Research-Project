@@ -1,0 +1,14 @@
+feature,unique_values,used_for_clustering,representation_role
+Age,53,True,BEHAVIOR_CLUSTER_FEATURE
+Gender,2,True,BEHAVIOR_CLUSTER_FEATURE
+Item Purchased,25,False,SUPERVISED_ONLY
+Category,4,True,BEHAVIOR_CLUSTER_FEATURE
+Purchase Amount (USD),81,True,BEHAVIOR_CLUSTER_FEATURE
+Location,50,False,SUPERVISED_ONLY
+Size,4,False,SUPERVISED_ONLY
+Color,25,False,SUPERVISED_ONLY
+Season,4,True,BEHAVIOR_CLUSTER_FEATURE
+Review Rating,26,True,BEHAVIOR_CLUSTER_FEATURE
+Previous Purchases,50,True,BEHAVIOR_CLUSTER_FEATURE
+Payment Method,6,True,BEHAVIOR_CLUSTER_FEATURE
+Frequency of Purchases,7,True,BEHAVIOR_CLUSTER_FEATURE

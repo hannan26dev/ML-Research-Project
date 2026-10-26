@@ -1,0 +1,132 @@
+encoded_feature,mean_absolute_shap,mean_signed_shap,original_feature
+categorical__Gender_Male,0.0982088572894065,-0.02654191360232012,Gender
+categorical__Gender_Female,0.09759521484586738,-0.025886129014113093,Gender
+numeric__Previous Purchases,0.006219342150648819,-0.0012123686594753332,Previous Purchases
+numeric__Age,0.005875721048861889,-0.001739922843450818,Age
+categorical__Item Purchased_Blouse,0.004287486473264426,-0.00033137000977516044,Item Purchased
+numeric__Purchase Amount (USD),0.0037797865839263984,-0.0010113970466195253,Purchase Amount (USD)
+numeric__Review Rating,0.002973131735944044,-0.0011374686368378687,Review Rating
+categorical__Size_M,0.0017680470117035986,-0.00044095960126504306,Size
+categorical__Payment Method_Credit Card,0.0014178533950654144,-0.00033290899990857465,Payment Method
+categorical__Frequency of Purchases_Quarterly,0.0013829209904441123,-7.138664994621382e-05,Frequency of Purchases
+categorical__Item Purchased_T-shirt,0.001237114685522246,-0.00027127653941074023,Item Purchased
+categorical__Item Purchased_Jacket,0.001195013756757416,-9.348148413374906e-05,Item Purchased
+categorical__Size_S,0.0011886853026741105,-0.00020336414199490402,Size
+categorical__Item Purchased_Skirt,0.0011617365400925569,-0.00016744230612690173,Item Purchased
+categorical__Color_Gold,0.001113854126502696,3.248672236587487e-06,Color
+categorical__Location_Kansas,0.001098240336599024,0.00021667406254083536,Location
+categorical__Location_Maine,0.0010660700202985208,-0.0003395639392960848,Location
+categorical__Item Purchased_Sweater,0.001045728060024973,-0.00013288290934599466,Item Purchased
+categorical__Color_Brown,0.0010407873632131183,1.7116609837632104e-05,Color
+categorical__Color_Turquoise,0.0010063456105529824,-0.00024329155983949423,Color
+categorical__Payment Method_Cash,0.0009907194825552205,-0.00020347500356279941,Payment Method
+categorical__Color_Peach,0.0009622493840510161,-0.00011404622801271919,Color
+categorical__Category_Clothing,0.0009460823254008523,-0.0002944498881926197,Category
+categorical__Category_Footwear,0.0009081102028150842,-0.00018304609969340405,Category
+categorical__Item Purchased_Coat,0.0008905754249173417,-0.00011789056937213173,Item Purchased
+categorical__Item Purchased_Socks,0.0008413887055229797,-4.8087921545133324e-05,Item Purchased
+categorical__Color_Black,0.0008027729054889633,-0.00014305997104587323,Color
+categorical__Location_Wisconsin,0.0007932959178329893,-7.730338855591367e-05,Location
+categorical__Frequency of Purchases_Annually,0.0007796355099292019,-0.00014721059117593147,Frequency of Purchases
+categorical__Payment Method_Bank Transfer,0.000752043783538138,-0.00017823026329891057,Payment Method
+categorical__Payment Method_Debit Card,0.0007340323480634531,-0.000233192143388418,Payment Method
+categorical__Season_Spring,0.0007339678476375023,-0.00026281560930219416,Season
+categorical__Color_Green,0.0007311257938822699,-1.2240159879406202e-05,Color
+categorical__Size_XL,0.0006913608215858178,-0.00018189379232839937,Size
+categorical__Color_Magenta,0.0006843550888555659,-1.6272314283498866e-05,Color
+categorical__Location_Kentucky,0.00067991236284948,-2.2842086580493767e-05,Location
+categorical__Color_Pink,0.0006697771496663474,-5.067283789779721e-05,Color
+categorical__Season_Winter,0.0006061735702328539,-0.00011345724077197654,Season
+categorical__Location_Connecticut,0.0005991829133550017,-0.00016276960455692012,Location
+categorical__Location_Delaware,0.0005880083152662971,-6.413092214851576e-05,Location
+categorical__Location_Maryland,0.0005719955371550369,-6.830893065240422e-05,Location
+categorical__Item Purchased_Jeans,0.0005650470866509809,-0.00017407399459801073,Item Purchased
+categorical__Category_Accessories,0.000542602328627456,-0.00025473153552136137,Category
+categorical__Size_L,0.0005306606183659243,-0.00021174063399138294,Size
+categorical__Season_Fall,0.0005116433522019513,-0.0001503556826721951,Season
+categorical__Location_Tennessee,0.0005020492362579545,-4.9767116765467846e-05,Location
+categorical__Payment Method_Venmo,0.000495854653773875,-0.00017554092962039113,Payment Method
+categorical__Frequency of Purchases_Bi-Weekly,0.0004905025498650221,-0.0001534092543587785,Frequency of Purchases
+categorical__Season_Summer,0.0004892961586135084,-0.00020872769817594481,Season
+categorical__Location_Nevada,0.0004852523205355755,-8.71664609379925e-05,Location
+categorical__Location_Texas,0.0004850623976146113,-0.00020860700258812132,Location
+categorical__Payment Method_PayPal,0.0004805069631770655,-0.00023422907425663347,Payment Method
+categorical__Item Purchased_Hat,0.0004753598496288175,-0.00010390137541356134,Item Purchased
+categorical__Frequency of Purchases_Weekly,0.0004696233762638227,-0.00014680527126702408,Frequency of Purchases
+categorical__Color_Silver,0.00045962884870632984,-8.105393449010982e-05,Color
+categorical__Frequency of Purchases_Every 3 Months,0.000446375167251986,-0.00010957387672702108,Frequency of Purchases
+categorical__Item Purchased_Handbag,0.0004410159269628683,-5.043494573219346e-05,Item Purchased
+categorical__Location_Michigan,0.0004297015896390207,2.6013933842248233e-05,Location
+categorical__Item Purchased_Pants,0.0004152742161594113,-3.857689147864611e-05,Item Purchased
+categorical__Location_Alabama,0.0003978286754346405,4.8730701091709104e-05,Location
+categorical__Location_Idaho,0.0003806610488709374,3.847857720822577e-05,Location
+categorical__Item Purchased_Boots,0.00038005711665808195,-0.00011410489791007449,Item Purchased
+categorical__Location_Ohio,0.00037419600213904597,-4.053413545474226e-05,Location
+categorical__Location_South Carolina,0.00037374960452926377,-0.0001320783980153493,Location
+categorical__Frequency of Purchases_Fortnightly,0.00037046847659140766,-0.0001379921140386017,Frequency of Purchases
+categorical__Frequency of Purchases_Monthly,0.00036745177868445413,-0.00013912949220343195,Frequency of Purchases
+categorical__Color_Lavender,0.0003577913348828536,-6.940910038654037e-05,Color
+categorical__Item Purchased_Jewelry,0.0003466839142804614,-2.203130763548395e-05,Item Purchased
+categorical__Location_Indiana,0.0003252795639799222,1.3846765272091525e-05,Location
+categorical__Item Purchased_Shoes,0.00031843581127680837,-5.935263428949602e-06,Item Purchased
+categorical__Location_New Mexico,0.00031014162410549845,-9.341956463015095e-05,Location
+categorical__Item Purchased_Belt,0.00030798337980173266,-3.508113759546868e-05,Item Purchased
+categorical__Location_Oklahoma,0.0003009743317285999,-0.00015905809159576147,Location
+categorical__Location_Missouri,0.0002822583671919632,-9.186954134921538e-05,Location
+categorical__Color_Maroon,0.0002776617023563359,-6.262089890626322e-05,Color
+categorical__Color_Violet,0.0002775927480896288,-4.385077179925874e-06,Color
+categorical__Location_Oregon,0.00027479367244458684,1.4422862108464188e-05,Location
+categorical__Location_New York,0.0002483975362423886,-4.1519015350999755e-05,Location
+categorical__Color_White,0.0002478809251569108,-8.63096059519483e-05,Color
+categorical__Color_Gray,0.0002474808389654464,-8.179167295815933e-05,Color
+categorical__Item Purchased_Sandals,0.0002355050265639733,-3.999389705220195e-05,Item Purchased
+categorical__Item Purchased_Gloves,0.0002330116337310674,-8.236590422228056e-05,Item Purchased
+categorical__Location_Utah,0.00023068195891329094,-2.9614247006641918e-05,Location
+categorical__Item Purchased_Scarf,0.0002264292592292447,-2.209189281981446e-05,Item Purchased
+categorical__Location_New Jersey,0.00022123246880066943,-4.90649966189239e-05,Location
+categorical__Location_Arkansas,0.0002198178253706875,-4.549805537634107e-05,Location
+categorical__Location_West Virginia,0.0002163653150198395,-3.86003038309639e-05,Location
+categorical__Item Purchased_Shirt,0.00020638360008801263,7.398196725314019e-06,Item Purchased
+categorical__Color_Cyan,0.00020307455295364593,-2.6588374343707793e-05,Color
+categorical__Location_Wyoming,0.0002026287678761045,-6.354976028514025e-05,Location
+categorical__Item Purchased_Shorts,0.00020221098195787773,-7.379013661688867e-05,Item Purchased
+categorical__Location_Virginia,0.00019523686957147315,1.3072182650660506e-05,Location
+categorical__Location_North Carolina,0.0001917224707794503,-9.028168173429804e-05,Location
+categorical__Color_Orange,0.00017312298548747307,-6.19710337629945e-05,Color
+categorical__Location_Colorado,0.0001725105335168332,-2.1596168396623534e-05,Location
+categorical__Color_Indigo,0.00017236381161264274,-2.163398676004762e-05,Color
+categorical__Color_Charcoal,0.00016035573611688635,-5.917649444799641e-05,Color
+categorical__Location_Vermont,0.00015582031819188233,-1.7972157599660542e-06,Location
+categorical__Location_New Hampshire,0.00015202649218191717,1.3418996158790023e-06,Location
+categorical__Item Purchased_Backpack,0.0001518352096570804,-9.228532091762174e-05,Item Purchased
+categorical__Category_Outerwear,0.00014684702070341866,-4.9638273168287694e-05,Category
+categorical__Location_Pennsylvania,0.00013811566026799795,-2.9155923512297526e-06,Location
+categorical__Color_Beige,0.0001305204817573341,-7.328654662792721e-05,Color
+categorical__Item Purchased_Hoodie,0.00012653210035780966,-1.704897524680105e-05,Item Purchased
+categorical__Color_Olive,0.00012388367465490955,-3.6874278315088376e-05,Color
+categorical__Location_Montana,0.00012153030561457557,-6.290558577129248e-05,Location
+categorical__Item Purchased_Sunglasses,0.0001209147079814594,-6.249837629657715e-06,Item Purchased
+categorical__Color_Yellow,0.00011379293519905751,-6.812170521889694e-05,Color
+categorical__Location_Louisiana,0.00011111543466752972,-2.7597431149860148e-05,Location
+categorical__Color_Red,0.00011039238625765345,-1.1268204779754043e-05,Color
+categorical__Location_Rhode Island,0.00010876888346625989,-2.2246809247385537e-05,Location
+categorical__Location_Alaska,0.00010849419228723551,-7.868738714944333e-06,Location
+categorical__Item Purchased_Sneakers,0.0001066566167074953,-6.497059955269248e-05,Item Purchased
+categorical__Item Purchased_Dress,0.00010292697881277429,-4.0150881572388806e-05,Item Purchased
+categorical__Color_Purple,0.00010076600105542245,-6.0689147714353066e-05,Color
+categorical__Location_Illinois,9.86720547919456e-05,-6.259533839661469e-05,Location
+categorical__Location_South Dakota,9.612557862085371e-05,-3.7354317349166485e-05,Location
+categorical__Color_Teal,9.49120579660323e-05,-1.823845801729166e-05,Color
+categorical__Location_Mississippi,9.459017775484292e-05,-4.905853118085111e-05,Location
+categorical__Color_Blue,8.836363851384314e-05,-4.600593788747096e-05,Color
+categorical__Location_Nebraska,8.500267755216e-05,-2.4839739644551282e-05,Location
+categorical__Location_North Dakota,8.058265459473189e-05,-2.671689806704899e-05,Location
+categorical__Location_Washington,8.02834621369836e-05,-3.6583976847709796e-05,Location
+categorical__Location_Georgia,6.725068234894313e-05,-2.916202278398684e-05,Location
+categorical__Location_California,6.206279826972585e-05,-4.341316933810539e-05,Location
+categorical__Location_Arizona,6.122206569988187e-05,-9.92221144181043e-06,Location
+categorical__Location_Iowa,6.024811783216306e-05,-1.840201506801094e-05,Location
+categorical__Location_Massachusetts,5.7348884648045865e-05,-5.157031737453648e-06,Location
+categorical__Location_Minnesota,4.8339306630943136e-05,-3.782408919256037e-05,Location
+categorical__Location_Florida,4.015079409877687e-05,-3.655654872325034e-05,Location
+categorical__Location_Hawaii,3.193666428941924e-05,-1.195452936789531e-05,Location

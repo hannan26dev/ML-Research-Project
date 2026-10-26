@@ -1,0 +1,17 @@
+feature,role,dtype,unique_values,missing_count,missing_percent,mentioned_in_stage1_handover
+Customer ID,EXCLUDE_ID,int64,3900,0,0.0,False
+Age,CANDIDATE_FEATURE,int64,53,0,0.0,False
+Gender,CANDIDATE_FEATURE,object,2,0,0.0,False
+Item Purchased,CANDIDATE_FEATURE,object,25,0,0.0,False
+Category,CANDIDATE_FEATURE,object,4,0,0.0,False
+Purchase Amount (USD),CANDIDATE_FEATURE,int64,81,0,0.0,False
+Location,CANDIDATE_FEATURE,object,50,0,0.0,False
+Size,CANDIDATE_FEATURE,object,4,0,0.0,False
+Color,CANDIDATE_FEATURE,object,25,0,0.0,False
+Season,CANDIDATE_FEATURE,object,4,0,0.0,False
+Review Rating,CANDIDATE_FEATURE,float64,26,0,0.0,False
+Subscription Status,TARGET,object,2,0,0.0,False
+Discount Applied,CANDIDATE_FEATURE,object,2,0,0.0,False
+Previous Purchases,CANDIDATE_FEATURE,int64,50,0,0.0,False
+Payment Method,CANDIDATE_FEATURE,object,6,0,0.0,False
+Frequency of Purchases,CANDIDATE_FEATURE,object,7,0,0.0,False

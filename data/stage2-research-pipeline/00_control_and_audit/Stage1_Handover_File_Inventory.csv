@@ -1,0 +1,7 @@
+file_name,extension,path,size_bytes
+Stage2_Allowed_Features.csv,.csv,D:\data\stage1-dataset-intelligence\Stage2_Handover_Package\Stage2_Allowed_Features.csv,188
+Stage2_Excluded_Columns.csv,.csv,D:\data\stage1-dataset-intelligence\Stage2_Handover_Package\Stage2_Excluded_Columns.csv,77
+Stage2_Handover_Contract.json,.json,D:\data\stage1-dataset-intelligence\Stage2_Handover_Package\Stage2_Handover_Contract.json,853
+Stage2_Modeling_Plan.txt,.txt,D:\data\stage1-dataset-intelligence\Stage2_Handover_Package\Stage2_Modeling_Plan.txt,245
+Stage2_Next_Prompt.txt,.txt,D:\data\stage1-dataset-intelligence\Stage2_Handover_Package\Stage2_Next_Prompt.txt,301
+Stage2_Preprocessing_Requirements.csv,.csv,D:\data\stage1-dataset-intelligence\Stage2_Handover_Package\Stage2_Preprocessing_Requirements.csv,955

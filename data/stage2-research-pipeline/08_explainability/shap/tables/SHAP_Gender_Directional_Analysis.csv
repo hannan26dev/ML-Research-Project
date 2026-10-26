@@ -1,0 +1,3 @@
+encoded_feature,active_rows,mean_shap_when_active,mean_abs_shap_when_active,mean_shap_when_inactive
+categorical__Gender_Female,253,-0.19034673559443618,0.19034673559443618,0.05306744492293013
+categorical__Gender_Male,527,0.05303625813655349,0.05303625813655349,-0.19230355987262202

@@ -1,0 +1,10 @@
+measure,value
+Grouped permutation importance,0.18364843576518136
+Grouped SHAP mean absolute contribution,0.19580407213527384
+Cramer's V,0.4165777557121568
+Full-model mean F1,0.5726972580662889
+Gender-removed mean F1,0.2812816499016547
+Absolute F1 loss,0.29141560816463424
+Relative F1 loss (%),50.8847570090694
+Full-model ROC-AUC,0.7189656752096887
+Gender-removed ROC-AUC,0.4906387692717747

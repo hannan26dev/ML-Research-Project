@@ -1,0 +1,51 @@
+
+FINAL RESEARCH LIMITATIONS
+==========================
+
+1. Synthetic dataset
+--------------------
+The Customer Shopping Trends dataset is synthetic. Findings
+must therefore not be interpreted as direct evidence about
+real customer populations.
+
+2. Structural Gender-Subscription relationship
+-----------------------------------------------
+The dataset contains a pronounced relationship between Gender
+and Subscription Status. Explainability and ablation analyses
+demonstrate that predictive performance depends strongly on
+this structural characteristic.
+
+3. No causal interpretation
+---------------------------
+The study is predictive and associative. Neither SHAP,
+permutation importance, chi-square analysis, nor ablation
+testing establishes causality.
+
+4. Limited dataset size
+-----------------------
+The dataset contains 3,900 observations, limiting the extent
+to which more complex machine-learning methods can be justified.
+
+5. Label scarcity is simulated
+------------------------------
+The 10%, 20%, and 50% label conditions are experimentally
+constructed from a fully labeled dataset. They simulate label
+scarcity rather than representing naturally missing labels.
+
+6. Pseudo-label diagnostics use hidden ground truth
+---------------------------------------------------
+True labels of experimentally hidden samples were used only
+for retrospective diagnostic evaluation of pseudo-label
+reliability. They were not used for pseudo-label selection or
+model training.
+
+7. Clustering was not retained as the primary mechanism
+--------------------------------------------------------
+K-Prototypes clustering exhibited weak separation. Therefore,
+cluster-guided pseudo-labeling was not treated as the primary
+method in the final evidence.
+
+8. Single dataset
+-----------------
+External validation on additional real-world datasets is
+required before generalizing the findings.

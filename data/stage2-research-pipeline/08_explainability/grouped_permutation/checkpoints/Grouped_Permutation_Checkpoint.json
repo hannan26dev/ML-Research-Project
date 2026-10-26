@@ -1,0 +1,20 @@
+{
+    "timestamp": "2026-09-14T00:05:19",
+    "stage": "Grouped permutation importance",
+    "model": "Frozen 100%-label Random Forest",
+    "evaluation_set": "Held-out final test set",
+    "baseline_test_f1": 0.5737704918032787,
+    "original_features": 13,
+    "encoded_features": 131,
+    "grouped_permutation_repeats": 50,
+    "random_state": 2026,
+    "grouping_rule": "All encoded columns belonging to the same original predictor were jointly permuted using one shared row permutation.",
+    "motivation": "Independent permutation of one-hot columns can create invalid combinations and inflate categorical importance.",
+    "gender_cell24_independent_absolute_sum": 0.1588494395501014,
+    "gender_grouped_importance": 0.18364843576518136,
+    "model_retrained": false,
+    "feature_selection_performed": false,
+    "hyperparameters_changed": false,
+    "methodology_changed": false,
+    "next_stage": "SHAP global and local explanations"
+}

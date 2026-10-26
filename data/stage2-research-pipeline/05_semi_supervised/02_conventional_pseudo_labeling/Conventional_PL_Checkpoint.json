@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-09-13T23:21:13",
+    "stage": "Conventional pseudo-labeling",
+    "base_learner": "Random Forest",
+    "tau": 0.7,
+    "label_conditions": [
+        10,
+        20,
+        50
+    ],
+    "repetitions": 5,
+    "selection_rule": "prediction confidence >= tau",
+    "hidden_labels_used_for_selection": false,
+    "hidden_labels_used_for_diagnostics_only": true,
+    "cluster_guidance_used": false,
+    "internal_validation_used_for_evaluation": true,
+    "locked_final_test_used": false,
+    "next_stage": "Assess whether cluster-guided pseudo-labeling is scientifically defensible"
+}

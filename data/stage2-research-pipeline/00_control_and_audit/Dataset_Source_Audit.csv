@@ -1,0 +1,4 @@
+path,exists,readable,rows,columns,has_target,has_customer_id,status
+D:\data\Base_Folder_for_ML_Research_After_Stage_0_and_1\01_Core_Dataset\dataset_for_stage_2.csv,True,True,3900,16,False,False,REJECTED - TARGET MISSING
+D:\data\dataset_for_stage_1.csv,True,True,3900,16,False,False,REJECTED - TARGET MISSING
+D:\data\dataset.csv,True,True,3900,16,True,True,VALID FOR CURRENT RESEARCH

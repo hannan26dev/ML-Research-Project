@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-09-13T23:04:43",
+    "stage": "Label scarcity design",
+    "original_training_rows": 3120,
+    "locked_test_rows": 780,
+    "label_fractions": [
+        0.1,
+        0.2,
+        0.5,
+        1.0
+    ],
+    "repetitions": 5,
+    "repetition_seeds": [
+        42,
+        52,
+        62,
+        72,
+        82
+    ],
+    "sampling": "stratified nested labeled subsets",
+    "test_set_used": false,
+    "models_trained": false,
+    "pseudo_labels_generated": false,
+    "cluster_information_used": false,
+    "next_stage": "Reduced-label supervised baselines for 10%, 20%, 50%, and 100% conditions"
+}

@@ -1,0 +1,5 @@
+label_percent,repetitions,mean_labeled_rows,mean_unlabeled_rows,mean_positive_percent
+10,5,312.0,2808.0,26.923099999999998
+20,5,624.0,2496.0,26.923099999999998
+50,5,1560.0,1560.0,26.9872
+100,5,3120.0,0.0,26.9872

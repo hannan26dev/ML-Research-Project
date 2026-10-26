@@ -1,0 +1,61 @@
+
+GENDER-ABLATION ROBUSTNESS / SENSITIVITY ANALYSIS
+
+Analysis type:
+Post-hoc sensitivity analysis.
+
+Primary experiment changed:
+No.
+
+Gender removed from primary model:
+No.
+
+Feature selection performed:
+No.
+
+Hyperparameter tuning performed:
+No.
+
+Frozen Random Forest parameters:
+{'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'n_estimators': 400}
+
+Number of frozen seeds:
+20
+
+Full predictor count:
+13
+
+Gender-ablated predictor count:
+12
+
+Mean F1 with Gender:
+0.572697
+
+Mean F1 without Gender:
+0.281282
+
+Mean F1 difference (Full - Gender Removed):
+0.291416
+
+Relative F1 difference:
+50.885%
+
+Wilcoxon paired p-value:
+0.00000191
+
+Descriptive sensitivity category:
+Large F1 sensitivity
+
+INTERPRETATION CAUTION:
+
+This analysis quantifies model sensitivity to the availability
+of Gender. It does not establish that Gender causally determines
+subscription behavior.
+
+The primary locked-test results remain unchanged. The ablation
+analysis is secondary robustness evidence and should be reported
+separately from the primary predictive experiment.
+
+Because the source dataset is synthetic and Cell 27 identified
+a structural Gender-Subscription relationship, the result should
+not be generalized directly to real-world customer populations.

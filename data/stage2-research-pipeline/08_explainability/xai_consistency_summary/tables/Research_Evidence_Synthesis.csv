@@ -1,0 +1,7 @@
+research_question,evidence,conclusion
+Which predictor dominates subscription prediction?,Gender ranked first in both grouped permutation and SHAP.,Strong cross-method agreement.
+Do two XAI methods agree?,Spearman rho = 0.797,Feature rankings show measurable cross-method consistency.
+Is Gender importance supported by raw data?,"Chi-square = 676.794, Cramer's V = 0.417, p = 3.327e-149",Gender importance reflects a strong dataset-level structural relationship.
+Does prediction depend strongly on Gender?,F1: 0.573 -> 0.281 after removal (50.9% relative loss).,Large sensitivity to Gender.
+Does discrimination remain without Gender?,ROC-AUC: 0.719 -> 0.491,Most discriminative signal is strongly linked to Gender.
+What features follow Gender?,Consensus ranking places Item Purchased and Location next.,Secondary predictors contribute much less than Gender.

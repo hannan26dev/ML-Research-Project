@@ -1,0 +1,4 @@
+label_percent,mean_selected_rows,mean_pseudo_positive,mean_pseudo_negative,mean_positive_percent,mean_pseudo_accuracy,mean_positive_accuracy,mean_negative_accuracy
+10,22.4,2.8,19.6,24.453024453024454,0.9158301158301159,0.625,1.0
+20,40.8,4.4,36.4,22.17893217893218,0.8539682539682539,0.34444444444444444,1.0
+50,312.0,0.0,312.0,0.0,1.0,,1.0

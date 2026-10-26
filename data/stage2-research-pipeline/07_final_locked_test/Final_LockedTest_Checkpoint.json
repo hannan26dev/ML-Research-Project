@@ -1,0 +1,30 @@
+{
+    "timestamp": "2026-09-13T23:52:20",
+    "stage": "One-time final locked-test evaluation",
+    "methodology_frozen_before_test": true,
+    "training_rows": 3120,
+    "test_rows": 780,
+    "scarcity_levels": [
+        10,
+        20,
+        50
+    ],
+    "full_supervised_reference": 100,
+    "repetitions": 20,
+    "pseudo_label_tau": 0.7,
+    "rf_parameters": {
+        "max_depth": 10,
+        "max_features": "sqrt",
+        "min_samples_leaf": 5,
+        "n_estimators": 400
+    },
+    "methods": [
+        "Supervised RF",
+        "Conventional PL",
+        "Negative-Only PL"
+    ],
+    "test_used_for_tuning": false,
+    "test_used_for_model_selection": false,
+    "test_evaluation_status": "COMPLETED",
+    "important_rule": "No methodological changes may be made based on final test performance."
+}

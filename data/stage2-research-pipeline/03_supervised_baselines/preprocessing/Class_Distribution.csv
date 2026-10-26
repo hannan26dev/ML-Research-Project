@@ -1,0 +1,5 @@
+split,class,count,percent
+TRAIN,0,2278,73.013
+TRAIN,1,842,26.987
+TEST,0,569,72.949
+TEST,1,211,27.051

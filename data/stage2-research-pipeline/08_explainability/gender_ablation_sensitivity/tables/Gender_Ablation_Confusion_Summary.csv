@@ -1,0 +1,3 @@
+model_version,TN_mean,FP_mean,FN_mean,TP_mean
+Full model,257.0,312.0,1.15,209.85
+Gender removed,393.45,175.55,147.7,63.3

@@ -1,0 +1,7 @@
+evidence_source,measure,value,interpretation
+Grouped Permutation,Mean held-out F1 decrease,0.18364843576518136,Dominant feature
+SHAP,Mean absolute grouped SHAP,0.19580407213527384,Dominant feature
+Raw Association,Cramer's V,0.4165777557121568,Moderate structural association
+Gender Ablation,Absolute F1 loss,0.29141560816463424,Large predictive sensitivity
+Gender Ablation,Relative F1 loss (%),50.88475700906939,Large predictive sensitivity
+Gender Ablation,ROC-AUC without Gender,0.4906387692717747,Near-chance discrimination

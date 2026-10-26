@@ -1,0 +1,124 @@
+
+FINAL RESEARCH RESULTS
+======================
+
+1. Label-Scarcity Performance
+-----------------------------
+
+The fully supervised Random Forest achieved a mean held-out
+F1-score of 0.573 when trained using 100% of the
+available training labels.
+
+Under severe label scarcity, supervised performance declined.
+With only 10% of the labels available, the supervised Random
+Forest obtained an F1-score of 0.503.
+
+Conventional pseudo-labeling increased the 10%-label F1-score
+to 0.571, corresponding to an absolute improvement
+of 0.069.
+
+Negative-only pseudo-labeling achieved a similar F1-score of
+0.571.
+
+At 20% labeled data, supervised F1 was 0.541,
+compared with 0.571 for conventional pseudo-labeling
+and 0.571 for negative-only pseudo-labeling.
+
+At 50% labeled data, the performance difference narrowed:
+supervised F1=0.561,
+conventional pseudo-labeling F1=0.570,
+and negative-only pseudo-labeling F1=0.571.
+
+
+2. Asymmetric Pseudo-Label Reliability
+--------------------------------------
+
+The pseudo-label diagnostics demonstrated that the selected
+pseudo-label pool was overwhelmingly composed of high-confidence
+negative examples.
+
+The negative-only pseudo-labeling ablation produced performance
+that was nearly indistinguishable from conventional pseudo-labeling
+across the principal scarcity conditions.
+
+This suggests that much of the semi-supervised improvement is
+associated with the reliable expansion of the negative class
+rather than balanced pseudo-label expansion across both classes.
+
+
+3. Statistical Evidence
+-----------------------
+
+Twenty frozen-seed repetitions confirmed that pseudo-labeling
+produced the strongest improvements when labeled data were scarce.
+
+At the 10% and 20% label conditions, both conventional and
+negative-only pseudo-labeling demonstrated consistent paired
+F1 improvements over the supervised Random Forest.
+
+The effect decreased considerably as labeled-data availability
+increased toward 50%.
+
+
+4. Explainability
+-----------------
+
+Two complementary post-hoc explainability methods were used:
+grouped permutation importance and SHAP.
+
+The methods produced a Spearman feature-rank correlation of
+approximately 0.797, indicating strong agreement in the overall
+feature ranking.
+
+The consensus top predictors were:
+
+1. Gender
+2. Item Purchased
+3. Location
+
+Gender was the dominant predictor according to both explanation
+methods.
+
+
+5. Gender Structural Analysis
+-----------------------------
+
+A direct Gender × Subscription Status analysis identified a
+pronounced dataset-level association.
+
+Cramer's V was 0.417.
+
+A post-hoc Gender-ablation sensitivity analysis further showed
+that removing Gender reduced mean F1 from 0.573
+to 0.281, an absolute decrease of
+0.291 and a relative decrease of approximately
+50.9%.
+
+ROC-AUC decreased from approximately 0.719
+to 0.491, indicating that discrimination was
+near chance when Gender was unavailable.
+
+
+6. Scientific Interpretation
+----------------------------
+
+The results support the use of pseudo-labeling for recovering
+classification performance under label scarcity in this dataset.
+
+However, the explainability and robustness analyses show that
+the predictive problem contains a strong structural dependency
+between Gender and Subscription Status.
+
+Because the Customer Shopping Trends dataset is synthetic,
+this relationship must be interpreted as a characteristic of
+the dataset rather than a causal or automatically generalizable
+real-world behavioral effect.
+
+The primary research contribution is therefore twofold:
+
+(1) demonstrating data-efficient subscription prediction under
+label scarcity through pseudo-labeling; and
+
+(2) revealing, through explainability and ablation analysis,
+that apparently strong predictive performance may be heavily
+dependent on structural properties of the synthetic dataset.

@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-09-13T23:24:57",
+    "stage": "Class-aware pseudo-labeling",
+    "base_learner": "Random Forest",
+    "tau": 0.7,
+    "motivation": "Conventional confidence-based pseudo-labeling selected almost exclusively majority-class negative pseudo-labels.",
+    "selection_method": "Confidence threshold + class-aware negative cap derived from labeled-class distribution",
+    "zero_positive_negative_cap_fraction": 0.25,
+    "hidden_labels_used_for_selection": false,
+    "hidden_labels_used_for_diagnostics_only": true,
+    "cluster_guidance_used": false,
+    "internal_validation_used": true,
+    "locked_final_test_used": false
+}

@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-09-13T22:44:51",
+    "representation": "Behavior-focused 9-feature",
+    "candidate_k": [
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "training_rows": 3120,
+    "target_used": false,
+    "test_data_used": false,
+    "best_diagnostic_k": 2,
+    "best_gower_silhouette": 0.06658470365279537,
+    "original_best_gower_silhouette": 0.037699,
+    "decision": "WEAK_STRUCTURE_REQUIRES_REVIEW",
+    "final_k_frozen": false
+}

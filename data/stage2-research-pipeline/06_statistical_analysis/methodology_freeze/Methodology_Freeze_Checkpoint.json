@@ -1,0 +1,86 @@
+{
+    "timestamp": "2026-09-13T23:32:17",
+    "status": "METHODOLOGY_FROZEN_BEFORE_FINAL_TEST",
+    "method": {
+        "primary_model": "Random Forest",
+        "rf_parameters": {
+            "max_depth": 10,
+            "max_features": "sqrt",
+            "min_samples_leaf": 5,
+            "n_estimators": 400
+        },
+        "class_weight": "balanced",
+        "primary_features": [
+            "Age",
+            "Gender",
+            "Item Purchased",
+            "Category",
+            "Purchase Amount (USD)",
+            "Location",
+            "Size",
+            "Color",
+            "Season",
+            "Review Rating",
+            "Previous Purchases",
+            "Payment Method",
+            "Frequency of Purchases"
+        ],
+        "discount_applied": "Excluded from primary analysis",
+        "pseudo_label_tau": 0.7,
+        "scarcity_levels": [
+            10,
+            20,
+            50
+        ],
+        "methods_for_primary_comparison": [
+            "Supervised Random Forest",
+            "Conventional Confidence Pseudo-Labeling",
+            "Negative-Only Confidence Pseudo-Labeling"
+        ],
+        "class_aware_status": "Retained as negative ablation; not primary proposed method",
+        "cluster_guidance_status": "Not adopted as primary method because K-Prototypes showed weak separation/stability",
+        "primary_metric": "F1",
+        "supporting_metrics": [
+            "Precision",
+            "Recall",
+            "Balanced Accuracy",
+            "ROC-AUC",
+            "PR-AUC"
+        ],
+        "development_rows": 2496,
+        "internal_validation_rows": 624,
+        "locked_test_rows": 780,
+        "total_repetitions": 20,
+        "repetition_seeds": [
+            42,
+            52,
+            62,
+            72,
+            82,
+            92,
+            102,
+            112,
+            122,
+            132,
+            142,
+            152,
+            162,
+            172,
+            182,
+            192,
+            202,
+            212,
+            222,
+            232
+        ]
+    },
+    "important_findings_before_freeze": {
+        "clustering": "Behavior-focused K-Prototypes best Gower silhouette approximately 0.0666; not accepted as reliable primary guidance.",
+        "conventional_pseudo_labeling": "Improved F1 particularly at 10% and 20% label availability.",
+        "pseudo_label_asymmetry": "High-confidence negative pseudo-labels were substantially more reliable than positive pseudo-labels.",
+        "negative_only_ablation": "Reproduced nearly all conventional pseudo-label F1 gains.",
+        "class_aware_ablation": "Did not outperform conventional pseudo-labeling."
+    },
+    "locked_final_test_evaluated": false,
+    "next_step": "Run frozen methods across 20 development repetitions and repeat paired statistical analysis before final-test evaluation."
+}

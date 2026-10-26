@@ -1,0 +1,34 @@
+{
+    "timestamp": "2026-09-13T22:15:18",
+    "source_dataset": "D:\\data\\dataset.csv",
+    "target": "Subscription Status",
+    "mandatory_exclusions": [
+        "Customer ID",
+        "Subscription Status"
+    ],
+    "candidate_features": [
+        "Age",
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Purchase Amount (USD)",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Review Rating",
+        "Discount Applied",
+        "Previous Purchases",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "candidate_feature_count": 14,
+    "handover_directory": "D:\\data\\stage1-dataset-intelligence\\Stage2_Handover_Package",
+    "scientific_constraints": [
+        "Subscription Status excluded from all unsupervised clustering inputs.",
+        "Customer ID excluded from all predictive and clustering inputs.",
+        "No preprocessing has yet been fitted.",
+        "No train/test information has been shared.",
+        "No model has yet been trained."
+    ]
+}

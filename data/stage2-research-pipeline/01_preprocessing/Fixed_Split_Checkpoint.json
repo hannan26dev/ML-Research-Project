@@ -1,0 +1,55 @@
+{
+    "timestamp": "2026-09-13T22:17:45",
+    "dataset": "D:\\data\\dataset.csv",
+    "target": "Subscription Status",
+    "target_encoding": {
+        "No": 0,
+        "Yes": 1
+    },
+    "random_state": 42,
+    "test_size": 0.2,
+    "training_rows": 3120,
+    "test_rows": 780,
+    "primary_features": [
+        "Age",
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Purchase Amount (USD)",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Review Rating",
+        "Previous Purchases",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "sensitivity_features": [
+        "Age",
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Purchase Amount (USD)",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Review Rating",
+        "Discount Applied",
+        "Previous Purchases",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "primary_discount_policy": "Excluded",
+    "sensitivity_discount_policy": "Included",
+    "scientific_constraints": [
+        "Test set is locked from this point onward.",
+        "Clustering must be fitted using training data only.",
+        "Subscription Status must never enter clustering.",
+        "Customer ID must never enter modeling or clustering.",
+        "Pseudo-labeling must operate only on training observations.",
+        "Label-scarcity masks must be generated only within training data.",
+        "Model and threshold selection must not use test labels."
+    ]
+}

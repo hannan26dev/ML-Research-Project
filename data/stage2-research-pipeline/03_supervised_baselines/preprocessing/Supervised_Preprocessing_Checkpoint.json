@@ -1,0 +1,37 @@
+{
+    "timestamp": "2026-09-13T22:46:51",
+    "stage": "Supervised preprocessing",
+    "primary_feature_count": 13,
+    "numeric_features": [
+        "Age",
+        "Purchase Amount (USD)",
+        "Review Rating",
+        "Previous Purchases"
+    ],
+    "categorical_features": [
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "encoded_feature_count": 131,
+    "training_rows": 3120,
+    "locked_test_rows": 780,
+    "preprocessor_fit_scope": "TRAINING DATA ONLY",
+    "target_in_features": false,
+    "customer_id_in_features": false,
+    "discount_applied_primary": false,
+    "classifier_trained": false,
+    "clustering_decision": {
+        "original_gower_silhouette": 0.037699,
+        "behavior_gower_silhouette": 0.066585,
+        "original_mean_ari": 0.3287,
+        "status": "Not accepted as reliable primary guidance"
+    },
+    "next_step": "Train supervised baseline models without touching semi-supervised pseudo-labeling."
+}

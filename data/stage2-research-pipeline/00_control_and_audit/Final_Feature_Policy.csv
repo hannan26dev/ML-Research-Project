@@ -1,0 +1,15 @@
+feature,primary_analysis,sensitivity_analysis,reason
+Age,True,True,Retained candidate predictor
+Gender,True,True,Retained candidate predictor
+Item Purchased,True,True,Retained candidate predictor
+Category,True,True,Retained candidate predictor
+Purchase Amount (USD),True,True,Retained candidate predictor
+Location,True,True,Retained candidate predictor
+Size,True,True,Retained candidate predictor
+Color,True,True,Retained candidate predictor
+Season,True,True,Retained candidate predictor
+Review Rating,True,True,Retained candidate predictor
+Discount Applied,False,True,Sensitivity-only due to potential target-proxy concern
+Previous Purchases,True,True,Retained candidate predictor
+Payment Method,True,True,Retained candidate predictor
+Frequency of Purchases,True,True,Retained candidate predictor

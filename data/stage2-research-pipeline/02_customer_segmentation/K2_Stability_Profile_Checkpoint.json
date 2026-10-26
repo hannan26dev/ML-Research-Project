@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-09-13T22:36:21",
+    "candidate_k": 2,
+    "number_of_stability_runs": 10,
+    "seeds": [
+        11,
+        23,
+        42,
+        57,
+        71,
+        89,
+        103,
+        127,
+        151,
+        173
+    ],
+    "mean_pairwise_ari": 0.32868049146575534,
+    "median_pairwise_ari": 0.03377308610954288,
+    "minimum_pairwise_ari": 0.0003045201039898596,
+    "maximum_pairwise_ari": 0.9935979644467142,
+    "stability_classification": "LOW",
+    "representative_seed": 71,
+    "representative_cost": 20510.793241226656,
+    "target_used": false,
+    "test_data_used": false,
+    "k_frozen": false,
+    "reason_k_not_frozen": "Cluster stability and behavioral profiles must be interpreted together with the previously observed weak Gower silhouette."
+}

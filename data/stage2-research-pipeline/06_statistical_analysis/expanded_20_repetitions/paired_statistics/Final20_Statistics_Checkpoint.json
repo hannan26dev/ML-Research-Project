@@ -1,0 +1,27 @@
+{
+    "timestamp": "2026-09-13T23:43:27",
+    "stage": "Final 20-repetition paired statistics",
+    "bug_fix": "Corrected wide-table construction so all metrics are merged rather than overwritten.",
+    "matched_rows": 60,
+    "repetitions": 20,
+    "scarcity_levels": [
+        10,
+        20,
+        50
+    ],
+    "primary_metric": "F1",
+    "primary_comparisons": [
+        "Conventional PL vs Supervised RF",
+        "Negative-Only PL vs Supervised RF",
+        "Negative-Only PL vs Conventional PL"
+    ],
+    "statistical_methods": [
+        "paired mean difference",
+        "paired median difference",
+        "bootstrap 95% confidence interval",
+        "Wilcoxon signed-rank test",
+        "Holm correction"
+    ],
+    "methodology_frozen": true,
+    "locked_final_test_used": false
+}

@@ -1,0 +1,29 @@
+{
+    "timestamp": "2026-09-14T00:16:47",
+    "stage": "Gender-Subscription structural sanity check",
+    "cell": 27,
+    "analysis_type": "Diagnostic / descriptive",
+    "dataset_source": "In-memory dataframe: df",
+    "rows_analyzed": 3900,
+    "gender_categories": [
+        "Female",
+        "Male"
+    ],
+    "subscription_categories": [
+        "No",
+        "Yes"
+    ],
+    "positive_subscription_label": "Yes",
+    "positive_label_inferred": false,
+    "chi_square": 676.7944035612919,
+    "chi_square_p_value": 3.3268630006040623e-149,
+    "cramers_v": 0.4165777557121568,
+    "association_description": "moderate",
+    "model_retrained": false,
+    "hyperparameters_changed": false,
+    "feature_selection_performed": false,
+    "feature_removed": false,
+    "methodology_changed": false,
+    "locked_test_changed": false,
+    "causal_interpretation": false
+}

@@ -1,0 +1,4 @@
+file_name,rows,columns,column_names,read_status
+Stage2_Allowed_Features.csv,12,1,allowed_feature,OK
+Stage2_Excluded_Columns.csv,3,2,column_name | stage2_action,OK
+Stage2_Preprocessing_Requirements.csv,12,5,column_name | dtype | missing_percentage | unique_values | preprocessing_need,OK

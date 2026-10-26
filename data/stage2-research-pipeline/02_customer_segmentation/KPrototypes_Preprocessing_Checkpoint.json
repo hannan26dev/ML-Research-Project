@@ -1,0 +1,54 @@
+{
+    "timestamp": "2026-09-13T22:21:45",
+    "method": "K-Prototypes mixed-data preparation",
+    "numeric_scaling": "StandardScaler fitted on training data only",
+    "numeric_features": [
+        "Age",
+        "Purchase Amount (USD)",
+        "Review Rating",
+        "Previous Purchases"
+    ],
+    "categorical_features": [
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "categorical_indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "feature_order": [
+        "Age",
+        "Purchase Amount (USD)",
+        "Review Rating",
+        "Previous Purchases",
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "training_rows": 3120,
+    "test_rows": 780,
+    "target_used_for_clustering": false,
+    "customer_id_used": false,
+    "discount_applied_used_primary": false,
+    "clustering_fitted": false
+}

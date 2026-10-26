@@ -1,0 +1,2 @@
+analysis,n,chi_square,degrees_of_freedom,p_value,cramers_v,positive_subscription_label,positive_label_inferred,effect_group_1,effect_group_2,risk_difference_group1_minus_group2,risk_ratio_group1_over_group2,odds_ratio_group1_over_group2
+Gender vs Subscription Status,3900,676.7944035612919,1,3.3268630006040623e-149,0.4165777557121568,Yes,False,Female,Male,-0.39705882352941174,0.0,0.0

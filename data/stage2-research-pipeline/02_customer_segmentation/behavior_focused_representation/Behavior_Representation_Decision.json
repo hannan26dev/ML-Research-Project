@@ -1,0 +1,30 @@
+{
+    "timestamp": "2026-09-13T22:37:59",
+    "previous_representation_status": "REJECTED_NOT_FROZEN",
+    "previous_k": 2,
+    "previous_gower_silhouette": 0.037699,
+    "previous_mean_stability_ari": 0.32868049146575534,
+    "reason_for_revision": "All-feature mixed-data clustering showed weak separation and low stability. High-cardinality product/location descriptors may introduce categorical mismatch noise.",
+    "new_clustering_features": [
+        "Age",
+        "Gender",
+        "Purchase Amount (USD)",
+        "Category",
+        "Season",
+        "Review Rating",
+        "Previous Purchases",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "excluded_from_clustering_only": [
+        "Item Purchased",
+        "Location",
+        "Size",
+        "Color"
+    ],
+    "supervised_feature_set_changed": false,
+    "target_used_for_revision": false,
+    "discount_used": false,
+    "test_labels_used": false,
+    "next_step": "Re-evaluate K-Prototypes K=2..6 using the behavior-focused representation."
+}

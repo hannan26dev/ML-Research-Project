@@ -1,0 +1,57 @@
+{
+    "timestamp": "2026-09-13T22:31:40",
+    "method": "K-Prototypes",
+    "candidate_k": [
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "initialization": "Cao",
+    "n_init": 10,
+    "random_state": 42,
+    "training_rows": 3120,
+    "test_rows_used_for_k_selection": 0,
+    "target_used_for_k_selection": false,
+    "primary_features": [
+        "Age",
+        "Purchase Amount (USD)",
+        "Review Rating",
+        "Previous Purchases",
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "numeric_features": [
+        "Age",
+        "Purchase Amount (USD)",
+        "Review Rating",
+        "Previous Purchases"
+    ],
+    "categorical_features": [
+        "Gender",
+        "Item Purchased",
+        "Category",
+        "Location",
+        "Size",
+        "Color",
+        "Season",
+        "Payment Method",
+        "Frequency of Purchases"
+    ],
+    "evaluation": {
+        "cost": "K-Prototypes objective cost",
+        "separation": "Silhouette using precomputed Gower distance",
+        "minimum_cluster_threshold": 0.05
+    },
+    "diagnostic_recommended_k": 2,
+    "final_k_frozen": false,
+    "next_required_step": "Assess cluster stability and profile candidate solution before final K selection."
+}

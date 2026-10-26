@@ -1,0 +1,16 @@
+{
+    "timestamp": "2026-09-13T22:53:38",
+    "purpose": "Investigate perfect-recall behavior from Cell 10",
+    "C": 0.01,
+    "penalty": "l1",
+    "models_compared": [
+        "Unweighted",
+        "Balanced"
+    ],
+    "selection_primary_metric": "F1",
+    "selection_secondary_metric": "Balanced Accuracy",
+    "selected_weighting": "Balanced",
+    "test_set_evaluated": false,
+    "cluster_information_used": false,
+    "pseudo_labels_used": false
+}
